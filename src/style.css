@@ -1,0 +1,91 @@
+/* html {
+  font-size: 20rem;
+} */
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+body {
+  background-image: url(Earth.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.birthdate--span {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.top--text {
+  text-align: center;
+}
+
+.img--title {
+  text-align: center;
+  position: relative;
+}
+
+.img--date {
+  text-align: center;
+  position: relative;
+}
+
+.select--date {
+  text-align: center;
+  position: relative;
+  background: inherit;
+  border: none;
+  color: white;
+}
+.submit--date {
+  background: inherit;
+  display: inline-block;
+  border: none;
+  border-radius: 5em;
+  cursor: pointer;
+  color: white;
+}
+
+.submit--date:hover {
+  background-color: #333334;
+}
+
+.birthdate--label {
+  text-align: center;
+}
+
+.picture--explanation--container {
+  color: white;
+  min-width: auto;
+  text-align: center;
+}
+
+.img--explanation {
+  position: relative;
+  padding-bottom: 3em;
+  border: 4px solid darkgray;
+  padding: 43px;
+  border-radius: 30px;
+  font-size: 1.2em;
+}
+
+.img--div {
+  padding: 20px;
+}
+
+.img--image {
+  height: 50%;
+  width: 50%;
+  position: relative;
+  border: none;
+  border-radius: 1em;
+}

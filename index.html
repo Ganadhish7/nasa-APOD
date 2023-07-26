@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Astronomy Picture Of the Day</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="top--text">NASA's Astronomy Picture Of the Day</h1>
+      <h2 class="img--title" id="title"></h2>
+      <p class="img--date" id="date"></p>
+      <div class="picture--explanation--container">
+        <div class="img--explanation">
+          <p id="explanation"></p>
+        </div>
+        <div class="img--div">
+          <img
+            class="img--image"
+            src="https://apod.nasa.gov/apod/image/2307/Prawn_Stern_3800.jpg"
+            alt="astronomy image by NASA"
+          />
+        </div>
+      </div>
+      <div class="birthdate--span">
+        <label class="birthdate--label">
+          <h2>Select Date for specific Picture of the Day</h2>
+        </label>
+        <input class="select--date" type="date" />
+        <button class="submit--date">submit</button>
+        <p class="created--link" id="final--link"></p>
+      </div>
+    </main>
+    <script type="text/javascript" src="src/config.js"></script>
+    <script src="src/script.js"></script>
+  </body>
+</html>
