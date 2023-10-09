@@ -73,8 +73,3 @@ const convertTextToLink = function (text, url) {
   linkElement.innerHTML = '';
 };
 
-// remaining tasks -
-// rearrange code
-// style page
-// deploy
-// add logo
